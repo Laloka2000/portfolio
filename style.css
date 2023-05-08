@@ -1,0 +1,126 @@
+*
+{
+    margin: auto;
+    padding: auto;
+}
+
+.my-photo{
+    border-radius: 10px;
+    border: black 2px solid;
+}
+
+div .image{
+    transform: translate(30%, 0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+body{
+    background-color: #778899;
+    align-items: center;
+    align-content: center;
+}
+p,h1,h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*középre helyezni az oldalon */
+
+
+
+aside{
+    
+    background-color: #545454;
+    border-radius: solid 5px black;
+    -webkit-border-radius: solid 5px black;
+    -moz-border-radius: solid 5px black;
+    -ms-border-radius: solid 5px black;
+    -o-border-radius: solid 5px black;
+}
+
+
+.projects h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+aside p{
+    text-align: left;
+}
+
+.my-methods{
+    background-color: orange;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+
+
+.nav{
+    background-color: lightblue;
+    text-align: right;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: black
+}
+
+.nav a:hover{
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: black;
+    padding: 10px;
+}
+.copyright p{
+    color: white;
+}
+
+
+
+header div .me{
+    text-align: left;
+}
+
+
+.method-one{
+    border: solid 10px green; 
+    padding: 10px;
+    width: 15rem;
+    background-color: aliceblue;
+}
+
+
+.method-one p, .method-one h1{
+    color: black !important;
+}
+
+.method-two{
+    border: solid 10px green;
+    padding: 10px;
+    width: 15rem;
+    display: block;
+    position: relative;
+    transform: translate(18rem, -9.3rem);
+    background-color: aliceblue;
+    -webkit-transform: translate(18rem, -9.3rem);
+    -moz-transform: translate(18rem, -9.3rem);
+    -ms-transform: translate(18rem, -9.3rem);
+    -o-transform: translate(18rem, -9.3rem);
+}
+
+
+.method-two p, .method-two h1{
+    color: black !important;
+}
+/* A skilljeimet egy containerben akarom megoldani */
