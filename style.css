@@ -1,7 +1,12 @@
-*
-{
-    margin: auto;
-    padding: auto;
+
+
+.projects{
+    padding: 80px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
 }
 
 .my-photo{
@@ -9,19 +14,30 @@
     border: black 2px solid;
 }
 
-div .image{
-    transform: translate(30%, 0);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+
+
+.about-me{
+    width: 100%;
+    height: 100%;
 }
+
+
+div .image{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding: 20px;
+}
+
+
 body{
     background-color: #778899;
     align-items: center;
     align-content: center;
 }
-p,h1,h4{
+
+
+h1,h2,h4{
     color: black;
     font-size: 20px;
     font-weight: 100;
@@ -29,8 +45,16 @@ p,h1,h4{
     text-align: center;
 }
 
-/*középre helyezni az oldalon */
+.text-writer{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
 
+
+.my-skills{
+    background-color: azure;
+}
 
 
 aside{
@@ -54,12 +78,18 @@ aside p{
 }
 
 .my-methods{
-    background-color: orange;
-    justify-content: center;
-    align-content: center;
     display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: orange;
 }
 
+
+.method-one{
+    border-radius: 10px;
+}
 
 .nav{
     background-color: lightblue;
@@ -84,6 +114,7 @@ aside p{
 }
 .copyright p{
     color: white;
+    text-align: center;
 }
 
 
@@ -123,4 +154,27 @@ header div .me{
 .method-two p, .method-two h1{
     color: black !important;
 }
-/* A skilljeimet egy containerben akarom megoldani */
+
+
+
+
+* {box-sizing:border-box}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 10%; background-color: #808080;} 
+
+

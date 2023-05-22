@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lelovics László</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
@@ -14,16 +15,24 @@
     <header class="about-me">
         <div class="nav">
             <a href="#aboutMe">Rólam</a>
-            <a href="#">Tudásom</a>
+            <a href="#my-skills">Tudásom</a>
             <a href="#myprojects">Projektjeim</a>
         </div>
     </header>
 
-
-
-    <article>
+    
         <div class="about-me" id="aboutMe">
-            <h1>Üdvözőllek az oldalamon 😉</h1>
+            <span class="text-writer"></span>
+            <script>
+                var typed = new Typed('.text-writer', {
+                    strings: ["WebFejlesztő","Programozó","Informatikus","Front-End Fejlesztő"],
+                    typeSpeed: 80,
+                    backSpeed: 60, 
+                    loop: true,
+                    showCursor: true,
+                });
+            </script>
+            <h2>Üdvözőllek az oldalamon 😉</h2>
             <p class="me">
                 Lelovics László vagyok. Kecskeméten élek. Jelenleg egyetemen tanulok Programtervező Informatikusnak
                 Szenvedélyem hogy szép és lenyűgöző weboldalakat építsek. Jelenleg a frond-endet tanulom, dolgozók is benne és mellette mélyítem a tudásomat ezen a területen először. Célom hogy Full-stack fejlesztő legyek.
@@ -32,15 +41,33 @@
                 <img class="my-photo" src="MyPhoto.jpg" alt="MyPhoto" width="500" height="500">
             </div>
         </di>
-    </article>
+    
 
-    <article>
-        <h1>Technológiák amiket tanulok vagy tanultam: </h1>
+    
+        <div id="my-skills" class="my-skills">
+            <h1>Technológiák amiket tanulok vagy tanultam: </h1>
+
         <!--ponokkal akarom megoldani-->
-    </article>
+        </div>
+        <p>HTML</p>
+        <div class="container">
+          <div class="skills html">90%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container">
+          <div class="skills css">80%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="container">
+          <div class="skills js">65%</div>
+        </div>
+        <p>PHP</p>
+        <div class="container">
+          <div class="skills php">10%</div>
+        </div>
+    
 
-    <aside class="projects">
-        <div id="myprojects">
+        <div class="projects" id="myprojects">
             <h1>Projektjeim amikkel dolgozok vagy együttműködtem másokkal</h1>
             <div class="qr-code-challenge">
                 <h2>QR Kód</h2>
@@ -54,31 +81,31 @@
                 <!--Link a projekthez-->
             </div>
         </div>
-    </aside>
+    
 
-    <aside>
-        <div class="my-methods">
-            <h1>Hol tanulok? 😆</h1>
-            <div class="methods">
-                <h1>Ezeket az oldalakat használom tanulásra és arra hogy képezzem magamat folyamatosan</h1>
-            </div>
-            <div class="method-one">
-                <h1>Udemy</h1>
-                <p>Az udemy kurzusai sokat segítettek nekem a tudásom elmélyítésében</p>
-                <a  target="_blank" href="udemy.html">Udemy</a>
-            </div>
-            <div class="method-two">
-                <h1>FreeCodeCamp</h1>
-                <p></p>
-                <a target="_blank" href="freecodecamp.html">FreeCodeCamp</a>
-            </div>
+    
+       
+    
+    <div class="my-methods">
+        <h1>Hol tanulok?</h1>
+        <h1>Ezeket az oldalakat használom tanulásra és arra hogy képezzem magamat folyamatosan</h1>
+        <div class="method-one">
+            <h1>Udemy</h1>
+            <p>Az udemy kurzusai sokat segítettek nekem a tudásom elmélyítésében</p>
+            <a  target="_blank" href="udemy.html">Udemy</a>
         </div>
-    </aside>
+        <div class="method-two">
+            <h1>Codeacademy</h1>
+        </div>
+    </div>
+
     <footer>
         <div class="copyright">
             <p>Lelovics László &copy; 2023</p>
         </div>
     </footer>
+
+   
 </body>
 
 </html>
