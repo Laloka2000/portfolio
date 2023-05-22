@@ -31,7 +31,7 @@ div .image{
 
 
 body{
-    background-color: #778899;
+    background-color: #ffffff;
     align-items: center;
     align-content: center;
 }
@@ -57,25 +57,11 @@ h1,h2,h4{
 }
 
 
-aside{
-    
-    background-color: #545454;
-    border-radius: solid 5px black;
-    -webkit-border-radius: solid 5px black;
-    -moz-border-radius: solid 5px black;
-    -ms-border-radius: solid 5px black;
-    -o-border-radius: solid 5px black;
-}
-
-
 .projects h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
 }
 
-aside p{
-    text-align: left;
-}
 
 .my-methods{
     display: grid;
@@ -83,7 +69,7 @@ aside p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    background-color: orange;
+    background-color: #e1f4f3;
 }
 
 
@@ -92,7 +78,7 @@ aside p{
 }
 
 .nav{
-    background-color: lightblue;
+    background-color: #e1f4f3;
     text-align: right;
     padding: 10px;
     font-size: 14px;
@@ -125,7 +111,7 @@ header div .me{
 
 
 .method-one{
-    border: solid 10px green; 
+    border: solid 10px #706c61; 
     padding: 10px;
     width: 15rem;
     background-color: aliceblue;
@@ -137,7 +123,7 @@ header div .me{
 }
 
 .method-two{
-    border: solid 10px green;
+    border: solid 10px #706c61;
     padding: 10px;
     width: 15rem;
     display: block;
