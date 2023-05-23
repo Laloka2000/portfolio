@@ -1,7 +1,8 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 
 .projects{
     padding: 80px;
+    background-color: #025464;
 }
 
 *{
@@ -12,6 +13,7 @@
 .my-photo{
     border-radius: 10px;
     border: black 2px solid;
+
 }
 
 
@@ -26,8 +28,20 @@ div .image{
    display: flex;
    justify-content: center;
    align-content: center;
-   padding: 20px;
+   padding: 50px;
+   position: relative;
+   animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 0s;
+     animation-iteration-count: infinite;
 }
+
+
+
+@keyframes example {
+    from {top: -50px;}
+    to {top: 50px;}
+  }
 
 
 body{
@@ -64,18 +78,86 @@ h1,h2,h4{
 
 
 .my-methods{
-    display: grid;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     background-color: #e1f4f3;
+    padding: 30px;
 }
+
+
+
+
+.method-two{
+    border-radius: 10px;
+    animation: fade-bottom 1s ease-in;
+    margin-left: 10px;
+}
+
+/* @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+} */
 
 
 .method-one{
     border-radius: 10px;
+    animation: fade-left 1s ease-in;
+    -webkit-animation: fade-left 1s ease-in;
 }
+
+
+@keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+    } 
+}
+
+
+.method-one{
+    border: solid 10px #706c61; 
+    padding: 10px;
+    width: 15rem;
+    background-color: aliceblue;
+}
+
+
+.method-one p, .method-one h1{
+    color: black !important;
+}
+
+.method-two{
+    border: solid 10px #706c61;
+    padding: 10px;
+    width: 15rem;
+    background-color: aliceblue;
+}
+
+
+.method-two p, .method-two h1{
+    color: black !important;
+}
+
+
+
+
 
 .nav{
     background-color: #e1f4f3;
@@ -110,36 +192,6 @@ header div .me{
 }
 
 
-.method-one{
-    border: solid 10px #706c61; 
-    padding: 10px;
-    width: 15rem;
-    background-color: aliceblue;
-}
-
-
-.method-one p, .method-one h1{
-    color: black !important;
-}
-
-.method-two{
-    border: solid 10px #706c61;
-    padding: 10px;
-    width: 15rem;
-    display: block;
-    position: relative;
-    transform: translate(18rem, -9.3rem);
-    background-color: aliceblue;
-    -webkit-transform: translate(18rem, -9.3rem);
-    -moz-transform: translate(18rem, -9.3rem);
-    -ms-transform: translate(18rem, -9.3rem);
-    -o-transform: translate(18rem, -9.3rem);
-}
-
-
-.method-two p, .method-two h1{
-    color: black !important;
-}
 
 
 
