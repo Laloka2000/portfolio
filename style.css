@@ -31,17 +31,7 @@ div .image{
    padding: 50px;
    position: relative;
    animation-name: example;
-  animation-duration: 3s;  
-  animation-delay: 0s;
-     animation-iteration-count: infinite;
 }
-
-
-
-@keyframes example {
-    from {top: -50px;}
-    to {top: 50px;}
-  }
 
 
 body{
@@ -59,17 +49,19 @@ h1,h2,h4{
     text-align: center;
 }
 
-.text-writer{
-    text-align: center;
-    justify-content: center;
+
+#aboutMe{
+    margin: 30px;
     font-size: 20px;
+    text-align: center;
 }
 
 
-.my-skills{
+.progress{
+    margin: 30px;
+    font-size: 30px;
     background-color: azure;
 }
-
 
 .projects h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -78,98 +70,23 @@ h1,h2,h4{
 
 
 .my-methods{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #e1f4f3;
-    padding: 30px;
+    width: 100%;
 }
-
-
-
-
-.method-two{
-    border-radius: 10px;
-    animation: fade-bottom 1s ease-in;
-    margin-left: 10px;
-}
-
-/* @keyframes fade-bottom {
-    0% {
-      transform: translateY(50px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-} */
-
-
-.method-one{
-    border-radius: 10px;
-    animation: fade-left 1s ease-in;
-    -webkit-animation: fade-left 1s ease-in;
-}
-
-
-@keyframes fade-left {
-    0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-      -webkit-transform: translateX(0);
-      -moz-transform: translateX(0);
-      -ms-transform: translateX(0);
-      -o-transform: translateX(0);
-    } 
-}
-
-
-.method-one{
-    border: solid 10px #706c61; 
-    padding: 10px;
-    width: 15rem;
-    background-color: aliceblue;
-}
-
-
-.method-one p, .method-one h1{
-    color: black !important;
-}
-
-.method-two{
-    border: solid 10px #706c61;
-    padding: 10px;
-    width: 15rem;
-    background-color: aliceblue;
-}
-
-
-.method-two p, .method-two h1{
-    color: black !important;
-}
-
-
-
 
 
 .nav{
     background-color: #e1f4f3;
-    text-align: right;
-    padding: 10px;
+    padding: 15px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 
 .nav a{
     text-decoration: none;
-    color: black
+    color: black;
+    margin: 10px;
+    float: right;
 }
 
 .nav a:hover{
@@ -193,26 +110,9 @@ header div .me{
 
 
 
-
-
-
-* {box-sizing:border-box}
-
 .container {
   width: 100%; 
   background-color: #ddd; 
 }
-
-.skills {
-  text-align: right; 
-  padding-top: 10px; 
-  padding-bottom: 10px; 
-  color: white; 
-}
-
-.html {width: 90%; background-color: #04AA6D;} 
-.css {width: 80%; background-color: #2196F3;} 
-.js {width: 65%; background-color: #f44336;} 
-.php {width: 10%; background-color: #808080;} 
 
 

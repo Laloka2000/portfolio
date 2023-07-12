@@ -8,101 +8,111 @@
     <title>Lelovics László</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="about-me">
         <div class="nav">
             <a href="#aboutMe">Rólam</a>
-            <a href="#my-skills">Tudásom</a>
-            <a href="#myprojects">Projektjeim</a>
+            <a href="#my-skills">Technológiák</a>
+            <a href="#myprojects">Projektek</a>
         </div>
     </header>
-
-    
-        <div class="about-me" id="aboutMe">
-            <span class="text-writer"></span>
-            <script>
-                var typed = new Typed('.text-writer', {
-                    strings: ["WebFejlesztő","Programozó","Informatikus","Front-End Fejlesztő"],
-                    typeSpeed: 80,
-                    backSpeed: 60, 
-                    loop: true,
-                    showCursor: true,
-                });
-            </script>
-            <h2>Üdvözőllek az oldalamon 😉</h2>
-            <p class="me">
-                Lelovics László vagyok. Kecskeméten élek. Jelenleg egyetemen tanulok Programtervező Informatikusnak
-                Szenvedélyem hogy szép és lenyűgöző weboldalakat építsek. Jelenleg a frond-endet tanulom, dolgozók is benne és mellette mélyítem a tudásomat ezen a területen először. Célom hogy Full-stack fejlesztő legyek.
-            </p>
-            <div class="image">
-                <img class="my-photo" src="/images/me.jpg" alt="MyPhoto" width="500" height="500">
-            </div>
-        </di>
-    
-
-    
-        <div id="my-skills" class="my-skills">
-            <h1>Technológiák amiket tanulok vagy tanultam: </h1>
-
-        <!--ponokkal akarom megoldani-->
-        </div>
-        <p>HTML</p>
-        <div class="container">
-          <div class="skills html">90%</div>
-        </div>
-        <p>CSS</p>
-        <div class="container">
-          <div class="skills css">80%</div>
-        </div>
-        <p>JavaScript</p>
-        <div class="container">
-          <div class="skills js">65%</div>
-        </div>
-        <p>PHP</p>
-        <div class="container">
-          <div class="skills php">10%</div>
-        </div>
-    
-
-        <div class="projects" id="myprojects">
-            <h1>Projektjeim amikkel dolgozok vagy együttműködtem másokkal</h1>
-            <div class="qr-code-challenge">
-                <h2>QR Kód</h2>
-                <p>Ezt a kihívást a <a href="https://www.frontendmentor.io/home">Frontend Mentor</a> Oldalon oldottam meg
-                </p>
-                <!--Link a projekthez-->
-            </div>
-            <div class="book-site">
-                <h2>Könyves weboldal</h2>
-                <p>Ez egy egyetemi közös projekt feladat volt amit négyen oldottunk meg szaktársaimmal együtt.</p>
-                <!--Link a projekthez-->
-            </div>
-            <div>
-                <h2>Product preview card component</h2>
-            </div>
-        </div>
-    
-
-    
-       
-    
-    <div class="my-methods">
-        <h1>Hol tanulok?</h1>
-        <h1>Ezeket az oldalakat használom tanulásra és arra hogy képezzem magamat folyamatosan</h1>
-        <div class="method-one">
-            <h1>Udemy</h1>
-            <p>Az udemy kurzusai sokat segítettek nekem a tudásom elmélyítésében</p>
-            <button class="button">
-                <a  target="_blank" href="udemy.html">Udemy</a>
-            </button>
-        </div>
-        <div class="method-two">
-            <h1>FreeCodeCamp</h1>
+    <div class="about-me" id="aboutMe">
+        <span class="text-writer"></span>
+        <script>
+            var typed = new Typed('.text-writer', {
+                strings: ["WebFejlesztő","Programozó","Informatikus","Front-End Fejlesztő"],
+                typeSpeed: 80,
+                backSpeed: 60, 
+                loop: true,
+                showCursor: true,
+            });
+        </script>
+        <h2>Üdvözőllek!!</h2>
+        <p class="me">
+            Lelovics László vagyok. Kecskeméten élek. Jelenleg egyetemen tanulok Programtervező Informatikusnak
+            Szenvedélyem hogy szép és lenyűgöző weboldalakat építsek. Jelenleg a frond-endet tanulom, dolgozók is benne és mellette mélyítem a tudásomat ezen a területen először. Célom hogy Full-stack fejlesztő legyek.
+        </p>
+        <div class="image">
+            <img class="my-photo" src="/images/me.jpg" alt="MyPhoto" width="500" height="500">
         </div>
     </div>
+    <div id="my-skills">
+        <h1>Technológiák:</h1>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 25%">JavaScript 25%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info text-dark" style="width: 50%"> HTML 50%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 75%">CSS 75%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%">PHP 100%</div>
+          </div>
+    </div>
+    <!--ponokkal akarom megoldani-->
+    <!--Bootstrap progress bar-->
+    <div class="projects" id="myprojects">
+        <h1>Projektjeim:</h1>
+        <div class="grid text-center">
+            <div class="g-col-6">
+                <h2>QR Kód</h2>
+                <p>Ezt a kihívást a <a href="https://www.frontendmentor.io/home">Frontend Mentor</a> Oldalon oldottam meg
+            </p>
+            </div>
+            <div class="g-col-6">
+                <h2>Könyves weboldal</h2>
+                <p>Ez egy egyetemi közös projekt feladat volt amit négyen oldottunk meg szaktársaimmal együtt.</p>
+            </div>
+            <div class="g-col-6">
+                <h2>Product preview card component</h2>
+            </div>
+            <div class="g-col-6">
 
+            </div>
+          </div>
+    </div>
+    <div class="my-methods">
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <h1>Udemy</h1>
+                <p>Folyamatban lévő vagy elvégzet kurzusok</p>
+                <button type="button" class="btn btn-success" disabled>
+                    <a  target="_blank" href="udemy.html">Udemy</a>
+                </button>
+              </div>
+              <div class="col">
+                <div class="method-two">
+                    <h1>FreeCodeCamp</h1>
+                </div>
+              </div>
+              <div class="col">
+                <h1>Sololearn</h1>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <h1>W3Schools</h1>
+              </div>
+              <div class="col">
+                <h1>Több</h1>
+              </div>
+              <div class="col">
+                <h1>Több</h1>
+              </div>
+            </div>
+    </div>
+    
     <footer>
         <div class="copyright">
             <p>Lelovics László &copy; 2023</p>
