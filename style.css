@@ -5,8 +5,10 @@ body{
     align-items: center;
     align-content: center;
 }
+
+
 .projects{
-    padding: 80px;
+    padding: 100px;
     background-color: #025464;
 }
 
@@ -56,22 +58,135 @@ h1,h2,h4{
 .progress{
     margin: 30px;
     font-size: 30px;
-    background-color: azure;
+}
+
+
+
+.icon{
+    font-size: 2rem;
 }
 
 
 .projects h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-}
-
-.container {
-  background-color: #ddd !important; 
-  margin: auto;
-  padding: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 500;
 }
 
 
+.project-one{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow:  10px 10px 10px 15px black;
+    margin: 20px;
+}
+
+.project-one a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.project-two{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow:  10px 10px 10px 15px black;
+    margin: 20px;
+}
+
+.project-two a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.project-three{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow:  10px 10px 10px 15px black;
+    margin: 20px;
+}
+
+.project-three a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.project-four{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow:  10px 10px 10px 15px black;
+    margin: 20px;
+}
+
+.project-four a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.learning{
+    padding: 100px;
+    background-color: lightblue;
+}
+
+.one{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: brown;
+    margin: 20px;
+}
+
+.one a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.connect{
+    padding: 30px;
+}
+
+.two{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: brown;
+    margin: 20px;
+}
+
+.three{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: brown;
+}
 
 
 .nav{
@@ -80,6 +195,7 @@ h1,h2,h4{
     font-size: 14px;
     font-weight: 500;
 }
+
 
 
 .nav a{
