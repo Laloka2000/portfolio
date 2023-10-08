@@ -38,7 +38,6 @@ div .image{
 
 
 
-
 h1,h2,h4{
     color: black;
     font-size: 20px;
@@ -74,14 +73,14 @@ h1,h2,h4{
 }
 
 
-.project-one{
+.project-one , .project-two , .project-three ,  .project-four{
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     background-color: aliceblue;
-    box-shadow:  10px 10px 10px 15px black;
+    box-shadow:  5px 5px 20px 6px grey;
     margin: 20px;
 }
 
@@ -91,16 +90,7 @@ h1,h2,h4{
     font-size: 20px;
 }
 
-.project-two{
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    background-color: aliceblue;
-    box-shadow:  10px 10px 10px 15px black;
-    margin: 20px;
-}
+
 
 .project-two a{
     text-decoration: none;
@@ -109,32 +99,11 @@ h1,h2,h4{
 }
 
 
-.project-three{
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    background-color: aliceblue;
-    box-shadow:  10px 10px 10px 15px black;
-    margin: 20px;
-}
 
 .project-three a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
-
-.project-four{
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    background-color: aliceblue;
-    box-shadow:  10px 10px 10px 15px black;
-    margin: 20px;
 }
 
 .project-four a{
@@ -228,3 +197,8 @@ header div .me{
 
 
 
+@media (max-width: 500px){
+    .my-photo{
+        width: 80% !important;
+    }
+}

@@ -1,0 +1,35 @@
+.main{
+    padding: 30px;
+    margin: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+
+body > header > div > svg{
+    font-size: 2rem;
+}
+
+
+.javascript{
+    border: 3px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
