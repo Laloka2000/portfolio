@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     background-color: #ffffff;
     align-items: center;
@@ -7,10 +13,8 @@ body{
 }
 
 
-.projects{
-    padding: 100px;
-    background-color: #025464;
-}
+
+
 
 
 
@@ -66,51 +70,8 @@ h1,h2,h4{
 }
 
 
-.projects h1{
-    margin-bottom: 40px;
-    color: white;
-    font-weight: 500;
-}
 
 
-.project-one , .project-two , .project-three ,  .project-four{
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    background-color: aliceblue;
-    box-shadow:  5px 5px 20px 6px grey;
-    margin: 20px;
-}
-
-.project-one a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-
-
-.project-two a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-
-
-.project-three a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-.project-four a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
 
 .learning{
     padding: 100px;
@@ -134,28 +95,7 @@ h1,h2,h4{
 }
 
 
-.connect{
-    padding: 30px;
-}
 
-.two{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    background-color: brown;
-    margin: 20px;
-}
-
-.three{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    background-color: brown;
-}
 
 
 .nav{
@@ -178,6 +118,8 @@ h1,h2,h4{
     text-decoration: none;
 }
 
+/*Copyright*/
+
 .copyright{
     background-color: black;
     padding: 10px;
@@ -186,6 +128,9 @@ h1,h2,h4{
     color: white;
     text-align: center;
 }
+
+
+/*END*/
 
 
 
@@ -201,4 +146,145 @@ header div .me{
     .my-photo{
         width: 80% !important;
     }
+    .project-section{
+        display: flex;
+    }
+}
+
+
+/* Projektek */
+.kard {
+    width: 300px;
+    height: 700px;
+    padding: 10px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+}
+
+.tech-stack {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    padding-top: 15px;
+}
+
+.deskription {
+    margin: 20px;
+}
+
+.corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #05011b;
+    border-right: 100px solid transparent;
+}
+
+.rigth-top-corner {
+    left: auto;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.left-bottom-corner {
+    top: auto;
+    bottom: 0;
+    transform: rotate(-90deg);
+}
+
+.github-icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.link-icon {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.kard {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+    box-shadow: 0px 2px 21px rgba(0, 0, 0, 0.25);
+    transition: all 1s ease-in-out;
+    background-color: white;
+    color: black;
+}
+
+.deskr {
+    padding: 30px;
+}
+
+
+.kard:hover {
+    box-shadow: 0px 0px 15px 12px ;
+}
+
+.projects{
+    padding: 100px;
+    background-color: #025464;
+}
+
+
+.project-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.more-projects{
+    display: flex;
+}
+
+/*END*/
+
+
+/* Skills */
+
+.technologies{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/**/
+
+
+/* Elérhetőségek*/
+
+.connect{
+    padding: 70px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/**/
+
+/* Links */
+.me a, .learning .udemy a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
 }
