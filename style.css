@@ -142,13 +142,15 @@ header div .me{
 
 
 
-@media (max-width: 500px){
+@media (max-width: 750px){
     .my-photo{
         width: 80% !important;
     }
     .project-section{
-        display: flex;
+        display: block !important;
+        justify-content: center;
     }
+
 }
 
 
@@ -248,9 +250,20 @@ h4 {
     justify-content: center;
 }
 
-.more-projects{
-    display: flex;
+
+.project-button{
+    padding: 10px;
+    background-color: #025464;
 }
+
+.project-button a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
 
 /*END*/
 
@@ -288,3 +301,12 @@ h4 {
     font-weight: 700;
     font-style: italic;
 }
+
+
+/*Mobil */
+
+@media screen {
+    
+}
+
+.project-section{}
