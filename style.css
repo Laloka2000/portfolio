@@ -8,15 +8,13 @@
 
 body{
     background-color: #ffffff;
-    align-items: center;
-    align-content: center;
 }
 
 
 
 
 
-
+/* About me */
 
 .my-photo{
     border-radius: 10px;
@@ -32,13 +30,25 @@ body{
 }
 
 
+
+.me{
+    max-width: 1000px;
+}
+
+
+
+
 div .image{
    display: flex;
    justify-content: center;
    position: relative;
 }
 
-
+.about-me-info{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
 
 
 
@@ -54,7 +64,6 @@ h1,h2,h4{
 #aboutMe{
     margin: 30px;
     font-size: 20px;
-    text-align: center;
 }
 
 
@@ -143,14 +152,18 @@ header div .me{
 
 
 @media (max-width: 750px){
-    .my-photo{
-        width: 80% !important;
-    }
     .project-section{
         display: block !important;
         justify-content: center;
     }
 
+}
+
+
+@media (max-width: 1250px){
+    .about-me-info{
+        display: block;
+    }
 }
 
 
