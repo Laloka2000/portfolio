@@ -142,10 +142,10 @@ h1,h2,h4{
 /*END*/
 
 
-
 header div .me{
     text-align: left;
 }
+
 
 
 
@@ -168,88 +168,7 @@ header div .me{
 
 
 /* Projektek */
-.kard {
-    width: 300px;
-    height: 700px;
-    padding: 10px;
-}
 
-h4 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 56px;
-    color: #000000;
-    text-align: center;
-}
-
-.tech-stack {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    right: 30px;
-    padding-top: 15px;
-}
-
-.deskription {
-    margin: 20px;
-}
-
-.corner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-top: 100px solid #05011b;
-    border-right: 100px solid transparent;
-}
-
-.rigth-top-corner {
-    left: auto;
-    right: 0;
-    transform: rotate(90deg);
-}
-
-.left-bottom-corner {
-    top: auto;
-    bottom: 0;
-    transform: rotate(-90deg);
-}
-
-.github-icon {
-    position: absolute;
-    right: 8px;
-    top: 8px;
-}
-
-.link-icon {
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-}
-
-.kard {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    height: 500px;
-    width: 300px;
-    box-shadow: 0px 2px 21px rgba(0, 0, 0, 0.25);
-    transition: all 1s ease-in-out;
-    background-color: white;
-    color: black;
-}
-
-.deskr {
-    padding: 30px;
-}
-
-
-.kard:hover {
-    box-shadow: 0px 0px 15px 12px ;
-}
 
 .projects{
     padding: 100px;
@@ -269,12 +188,7 @@ h4 {
     background-color: #025464;
 }
 
-.project-button a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+
 
 
 
