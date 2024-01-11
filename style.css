@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-}
 
-
-body{
-    background-color: #ffffff;
-}
 
 
 /* Menu */ 
@@ -57,20 +49,11 @@ body{
 
 
 
-
-
-
-div .image{
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
 .about-me-info{
-    display: flex;
+    display: flex !important;
     gap: 30px;
-    justify-content: center;
-    max-width: 1300px;
+    padding: 50px;
+    align-items: center !important;
 }
 
 
@@ -90,16 +73,6 @@ h1,h2,h4{
 }
 
 
-.progress{
-    margin: 30px;
-    font-size: 30px;
-}
-
-
-
-.icon{
-    font-size: 2rem;
-}
 
 
 /* Tapasztalat */
@@ -129,13 +102,16 @@ h1,h2,h4{
     text-align: center;
 }
 
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+}
+
 
 /*END*/
 
-
-header div .me{
-    text-align: left;
-}
 
 
 
