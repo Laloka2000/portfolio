@@ -11,6 +11,29 @@ body{
 }
 
 
+/* Menu */ 
+
+
+.nav{
+    background-color: #e1f4f3;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.nav a:hover{
+    text-decoration: none;
+}
 
 
 
@@ -31,23 +54,23 @@ body{
 
 
 
-.me{
-    max-width: 1000px;
-}
+
+
 
 
 
 
 div .image{
-   display: flex;
-   justify-content: center;
-   position: relative;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .about-me-info{
     display: flex;
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
+    max-width: 1300px;
 }
 
 
@@ -79,7 +102,7 @@ h1,h2,h4{
 }
 
 
-
+/* Tapasztalat */
 
 
 .learning{
@@ -87,51 +110,19 @@ h1,h2,h4{
     background-color: lightblue;
 }
 
-.one{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    background-color: brown;
-    margin: 20px;
-}
-
-.one a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
 
 
 
 
-
-.nav{
-    background-color: #e1f4f3;
-    padding: 15px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-
-
-.nav a{
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-    float: right;
-}
-
-.nav a:hover{
-    text-decoration: none;
-}
 
 /*Copyright*/
 
 .copyright{
     background-color: black;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
 }
 .copyright p{
     color: white;
@@ -152,10 +143,7 @@ header div .me{
 
 
 @media (max-width: 750px){
-    .project-section{
-        display: block !important;
-        justify-content: center;
-    }
+ 
 
 }
 
@@ -182,14 +170,7 @@ header div .me{
     justify-content: center;
 }
 
-
-.project-button{
-    padding: 10px;
-    background-color: #025464;
-}
-
-
-
+@media (max-width: 800p)
 
 
 /*END*/
@@ -232,8 +213,4 @@ header div .me{
 
 /*Mobil */
 
-@media screen {
-    
-}
 
-.project-section{}
