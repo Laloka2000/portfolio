@@ -39,21 +39,11 @@
 
 
 
-.about-me{
-    width: auto;
-    height: auto;
-}
-
-
-
-
-
 
 .about-me-info{
     display: flex !important;
     gap: 30px;
     padding: 50px;
-    align-items: center !important;
 }
 
 
@@ -110,6 +100,8 @@ h1,h2,h4{
 }
 
 
+
+
 /*END*/
 
 
@@ -140,6 +132,9 @@ h1,h2,h4{
 @media (max-width: 800px){
     .project-section{
         display: grid ;
+    }
+    .about-me-info{
+        flex-direction: column;
     }
 }
 
