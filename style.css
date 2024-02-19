@@ -28,6 +28,20 @@
 }
 
 
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
+
+.content{
+    padding: 16px;
+}
+
 
 /* About me */
 
@@ -102,17 +116,6 @@ h1,h2,h4{
 
 
 
-/*END*/
-
-
-
-
-@media (max-width: 1250px){
-    .about-me-info{
-        display: block;
-    }
-}
-
 
 /* Projektek */
 
@@ -127,15 +130,6 @@ h1,h2,h4{
     display: flex;
     gap: 50px;
     justify-content: center;
-}
-
-@media (max-width: 800px){
-    .project-section{
-        display: grid ;
-    }
-    .about-me-info{
-        flex-direction: column;
-    }
 }
 
 
@@ -180,6 +174,22 @@ h1,h2,h4{
 /*Mobil */
 
 
+@media (max-width: 800px){
+    .project-section{
+        display: grid ;
+    }
+    .about-me-info{
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 1250px){
+    .about-me-info{
+        display: block;
+    }
+}
 
 
 /* For the english version only!!! */

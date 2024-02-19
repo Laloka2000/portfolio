@@ -14,4 +14,23 @@ function reveal() {
     }
   }
   
-  window.addEventListener("scroll", reveal);
+window.addEventListener("scroll", reveal);
+
+
+windows.onscroll = function (){
+  stickyNav();
+}
+
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function stickyNav (){
+  if(windows.pageYOffset >= sticky){
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
