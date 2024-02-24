@@ -1,25 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 
-
+body{
+    background-image: url("/images/coding.png");
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
 
 
 /* Menu */ 
 
 
+
+
+
+
 .nav{
-    background-color: #e1f4f3;
     padding: 25px;
     font-size: 14px;
     font-weight: 500;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    background-color: rgba(255,255,255,0.10);
 }
 
 
 
 .nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 10px;
 }
 
@@ -48,7 +58,6 @@
 .my-photo{
     border-radius: 10px;
     border: black 2px solid;
-    box-shadow: 10px 10px 10px 10px lightgray;
 }
 
 
@@ -58,6 +67,7 @@
     display: flex !important;
     gap: 30px;
     padding: 50px;
+    color: white;
 }
 
 
@@ -76,7 +86,14 @@ h1,h2,h4{
     font-size: 20px;
 }
 
+.text-writer{
+    color: white;
+}
 
+
+.icons{
+    fill: white;
+}
 
 
 /* Tapasztalat */
@@ -157,6 +174,11 @@ h1,h2,h4{
     display: flex;
     justify-content: center;
     gap: 30px;
+    fill: white;
+}
+
+.connect h1{
+    color: white;
 }
 
 
@@ -172,6 +194,7 @@ h1,h2,h4{
 
 
 /*Mobil */
+
 
 
 @media (max-width: 800px){
