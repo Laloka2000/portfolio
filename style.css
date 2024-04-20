@@ -3,52 +3,12 @@
 
 
 
-/* Menu */ 
-
-
-.nav{
-    background-color: #e1f4f3;
-    padding: 25px;
-    font-size: 14px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.nav a{
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-}
-
-.nav a:hover{
-    text-decoration: none;
-}
-
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content{
-    padding-top: 60px;
-}
-
-.content{
-    padding: 16px;
-}
 
 
 /* About me */
 
 .my-photo{
     border-radius: 10px;
-    border: black 2px solid;
-    box-shadow: 10px 10px 10px 10px lightgray;
 }
 
 
@@ -62,7 +22,7 @@
 
 
 
-h1,h2,h4{
+h1,h2{
     color: black;
     font-size: 20px;
     font-weight: 100;
@@ -72,8 +32,9 @@ h1,h2,h4{
 
 
 #aboutMe{
-    margin: 30px;
     font-size: 20px;
+    background-color: #161A30;
+    color: white;
 }
 
 
@@ -84,7 +45,7 @@ h1,h2,h4{
 
 .learning{
     padding: 100px;
-    background-color: lightblue;
+    background-color: #B6BBC4;
 }
 
 
@@ -119,17 +80,29 @@ h1,h2,h4{
 
 /* Projektek */
 
+.card{
+    color: white;
+}
+
+.card-title, .card-text{
+    color: white;
+}
+
+
 .card-body{
-    box-shadow: 0px 3px 8px 2px lightgray;
+    box-shadow: 0px 3px 8px 2px #31304D;
+    background-color: #31304D;
+    color: white
 }
 
 .projects{
+    
     padding: 100px;
-    background-color: #025464;
+    background-color: #31304D;
 }
 
 
-.project-section, .project-section-2{
+.project-section, .project-section-2, .project-section-3{
     margin-bottom: 30px;
     display: flex;
     gap: 50px;
@@ -154,6 +127,7 @@ h1,h2,h4{
 /* Elérhetőségek*/
 
 .connect{
+    background-color: #F0ECE5;
     padding: 70px;
 }
 
