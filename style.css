@@ -102,12 +102,45 @@ h1,h2{
 }
 
 
-.project-section, .project-section-2, .project-section-3{
+.project-section, .project-section-2{
     margin-bottom: 30px;
     display: flex;
     gap: 50px;
     justify-content: center;
 }
+
+
+.more-projects{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#myprojects > div.more-projects > button{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#myprojects > div.more-projects > button a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+#myprojects > div.more-projects > button:hover{
+    background-color: white;
+}
+
+
+#myprojects > div.more-projects > button:hover a{
+    color: black;
+}
+
 
 
 /*END*/
