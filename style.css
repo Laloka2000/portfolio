@@ -81,8 +81,14 @@ h1,h2{
 
 /* Projektek */
 
+
+#myprojects > h1{
+    color: white;
+}
 .card{
     color: white;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 .card-title, .card-text{
@@ -93,7 +99,6 @@ h1,h2{
 .card-body{
     box-shadow: 0px 3px 8px 2px #31304D;
     background-color: #31304D;
-    color: white
 }
 
 .projects{
@@ -103,12 +108,90 @@ h1,h2{
 }
 
 
-.project-section, .project-section-2, .project-section-3{
+.project-section, .project-section-2{
     margin-bottom: 30px;
     display: flex;
     gap: 50px;
     justify-content: center;
 }
+
+
+.more-projects{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    border-bottom: 2px solid white;
+}
+
+#myprojects > div.project-section > div:nth-child(3) > div > h5,
+#myprojects > div.project-section > div:nth-child(2) > div > h5,
+#myprojects > div.project-section > div:nth-child(1) > div > h5
+{
+    color: white;
+}
+
+#myprojects > div.more-projects > button{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#myprojects > div.more-projects > button a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+#myprojects > div.more-projects > button:hover{
+    background-color: white;
+}
+
+
+#myprojects > div.more-projects > button:hover a{
+    color: black;
+}
+
+
+#myprojects > div.project-section > div:nth-child(1) > div > button > a,
+#myprojects > div.project-section > div:nth-child(2) > div > button > a,
+#myprojects > div.project-section > div:nth-child(3) > div > button > a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+#myprojects > div.project-section > div:nth-child(1) > div > button,
+#myprojects > div.project-section > div:nth-child(2) > div > button,
+#myprojects > div.project-section > div:nth-child(3) > div > button{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+
+#myprojects > div.project-section > div:nth-child(1) > div > button:hover,
+#myprojects > div.project-section > div:nth-child(2) > div > button:hover,
+#myprojects > div.project-section > div:nth-child(3) > div > button:hover{
+    background-color: white;
+}
+
+#myprojects > div.project-section > div:nth-child(1) > div > button:hover a,
+#myprojects > div.project-section > div:nth-child(2) > div > button:hover a,
+#myprojects > div.project-section > div:nth-child(3) > div > button:hover a
+{
+    color: black !important;
+}
+
 
 
 /*END*/
