@@ -1,24 +1,16 @@
+let mybutton = document.getElementById("myBtn");
 
+window.onscroll = function() {scrollFunction()};
 
-//Oldal tetejére gomb
-
-let backtotop = document.getElementById("#felulre");
-
-windows.onscroll = function() {
-  scrollFunction();
-}
-
-function scrollFunction(){
-  if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-    backtotop.style.display = "block";
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
   } else {
-    backtotop.style.display = "none";
+    mybutton.style.display = "none";
   }
 }
 
-function topFunction(){
+function topFunction() {
   document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
 }
-
-
