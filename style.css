@@ -1,12 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
   margin: 0;
   padding: 0;
 }
+
+
+.menu {
+  background-color: #161a30;
+  color: white;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid white;
+}
+
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
 
 /* About me */
 
@@ -89,12 +114,15 @@ h2 {
 }
 
 .flip-card-back {
+  align-items: center !important;
   text-align: center;
   border-radius: 10px;
   background-color: #161a30;
   color: white;
   transform: rotateY(180deg);
 }
+
+/* About me end */
 
 /* Tapasztalat */
 
@@ -259,6 +287,10 @@ h2 {
   font-style: italic;
 }
 
+
+
+/* Scroll to top button */
+
 #myBtn {
   display: none;
   position: fixed;
@@ -302,6 +334,9 @@ h2 {
   }
   .about-me {
     width: 100%;
+  }
+  #myBtn:hover{
+    background-color: #555;
   }
 }
 
