@@ -16,6 +16,30 @@ html{
 
 /* About me */
 
+.wrapper {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centeredBox {
+	width: 100%;
+	text-align: center;
+}
+
+/* The Typewriter */
+
+#typewriter  {
+	
+}
+
+.cursor {
+	border-left: 4px solid white;
+}
+
+
 .my-photo {
   border-radius: 10px;
   width: 250px;
