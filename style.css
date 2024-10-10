@@ -9,28 +9,9 @@ html{
 }
 
 
-.menu {
-  background-color: #161a30;
-  color: white;
-  display: flex;
-  justify-content: end;
-  gap: 30px;
-  align-items: center;
-  padding: 10px;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: 100;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  border-bottom: 2px solid white;
-}
+/* Navbar */
 
 
-.menu a {
-  text-decoration: none;
-  color: white;
-}
 
 
 /* About me */
