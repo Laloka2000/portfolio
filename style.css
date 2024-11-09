@@ -229,6 +229,10 @@ h2 {
     width: 100%;
   }
 
+  #aboutMe > div.about-me-info > div.about-me-text{
+    width: 100%;
+  }
+
   .flip-card-inner {
     width: 100%;
   }
