@@ -31,7 +31,7 @@ function hamburgerMenu(){
 
 var typeWriterElement = document.getElementById('typewriter');
 
-var textArray = ["Webfejlesztő","Digitális marketinges","Frontend Fejlesztő",];
+var textArray = ["Webfejlesztő","Frontend Fejlesztő","Informatikus", "Programozó"];
 
 
 
