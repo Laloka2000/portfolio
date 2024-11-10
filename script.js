@@ -1,3 +1,5 @@
+// Go to the top of the page
+
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
@@ -15,19 +17,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; 
 }
 
-
-
-// Menu 
-
-function hamburgerMenu(){
-  var x = document.getElementById("myLinks");
-  if(x.style.display === "block"){
-    x.style.display = "none";
-  }else{
-    x.style.display = "block";
-  }
-}
-
+// TypeWriter function
 
 var typeWriterElement = document.getElementById('typewriter');
 
