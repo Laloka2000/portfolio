@@ -130,7 +130,7 @@ h2 {
 
 .card-title,
 .card-text {
-  color: white;
+  color: white !important;
 }
 
 .card-body {

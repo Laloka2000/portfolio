@@ -20,7 +20,6 @@ function topFunction() {
 // TypeWriter function
 
 var typeWriterElement = document.getElementById('typewriter');
-
 var textArray = ["Webfejlesztő","Frontend Fejlesztő","Informatikus", "Programozó"];
 
 
@@ -67,3 +66,6 @@ setTimeout( function () {
 	StartWriter(0);
 },1000);
 	
+
+// Typerwriter en
+
