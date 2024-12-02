@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
+:root{
+  --bs-gray: #6c757d;
+}
+
+
 html{
   scroll-behavior: smooth;
 }
@@ -10,10 +16,27 @@ html{
 
 
 /* Navbar */
+
 body > main > nav{
   background-color: #161a30 !important;
 }
 
+nav .nav-en .navbar .navbar-expand{
+  background-color: #161a30 !important;
+}
+
+
+.nav, .navbar{
+  background-color: #161a30 !important;
+  box-shadow: 15px 1px 2px 1px ;
+}
+
+#navbarTogglerDemo01 > ul > li:nth-child(1) > a,
+#navbarTogglerDemo01 > ul > li:nth-child(2) > a,
+#navbarTogglerDemo01 > ul > li:nth-child(3) > a,
+#navbarTogglerDemo01 > ul > li:nth-child(4) > a{
+  color: white;
+}
 
 
 /* About me */
