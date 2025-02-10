@@ -23,7 +23,7 @@ function topFunction() {
 
 var currentFileName = window.location.pathname.split("/").pop();
 
-var currentLanguage = currentFileName === "english-version.html" ? "en" : "hu";
+var currentLanguage = currentFileName === "english.html" ? "en" : "hu";
 
 var textArrayEn = ["Webdeveloper", "Frontend developer", "Coder", "Programmer"];
 var textArrayHu = [

@@ -122,8 +122,9 @@ h2 {
   justify-content: start;
 }
 
-
 /* Projektek */
+
+/*---------------------------------------------------------------------------------------*/
 
 #myprojects > h1 {
   color: white;
@@ -168,15 +169,73 @@ h2 {
   border-bottom: 2px solid white;
 }
 
+/*---------------------------------------------------------------------------------------*/
 /*END*/
 
+
+
+/*---------------------------------------------------------------------------------------*/
 /* Skills */
 
+
+@keyframes slides {
+  from {
+    transform: translateX(275%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 .technologies {
-  display: flex;
-  justify-content: center;
+  overflow: hidden;
+  padding: 40px 0px;
+  white-space: nowrap;
+  position: relative;
   gap: 20px;
 }
+
+.technologies:before,
+.technologies:after {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.technologies:before {
+  left: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+  );
+}
+
+.technologies:after {
+  right: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+  );
+}
+
+.technologies-items {
+  display: inline-block;
+  animation: 30s slides infinite linear;
+  gap: 50px;
+}
+
+.technologies:hover .technologies-items {
+  animation-play-state: paused;
+}
+
+.technologies-items img {
+  height: 85px;
+}
+
+/*---------------------------------------------------------------------------------------*/
 
 /**/
 
@@ -264,7 +323,7 @@ h2 {
   .flip-card {
     width: 100%;
   }
-  
+
   #aboutMe > div.about-me-info > div.about-me-text {
     width: 100%;
   }
