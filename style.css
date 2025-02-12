@@ -180,7 +180,7 @@ h2 {
 
 @keyframes slides {
   from {
-    transform: translateX(275%);
+    transform: translateX(200%);
   }
   to {
     transform: translateX(-100%);
@@ -223,7 +223,7 @@ h2 {
 
 .technologies-items {
   display: inline-block;
-  animation: 30s slides infinite linear;
+  animation: 25s slides infinite linear;
   gap: 50px;
 }
 
