@@ -2,6 +2,8 @@
 
 :root {
   --bs-gray: #6c757d;
+  --main-bg: #161a30;
+  --white-color: white;
 }
 
 html {
@@ -16,16 +18,16 @@ html {
 /* Navbar */
 
 body > main > nav {
-  background-color: #161a30 !important;
+  background-color: var(--main-bg);
 }
 
 nav .nav-en .navbar .navbar-expand {
-  background-color: #161a30 !important;
+  background-color: var(--main-bg);
 }
 
 .nav,
 .navbar {
-  background-color: #161a30 !important;
+  background-color: var(--main-bg);
   box-shadow: 15px 1px 2px 1px;
 }
 
@@ -33,7 +35,7 @@ nav .nav-en .navbar .navbar-expand {
 #navbarTogglerDemo01 > ul > li:nth-child(2) > a,
 #navbarTogglerDemo01 > ul > li:nth-child(3) > a,
 #navbarTogglerDemo01 > ul > li:nth-child(4) > a {
-  color: white;
+  color: var(--white-color);
 }
 
 /* About me */
@@ -57,7 +59,7 @@ nav .nav-en .navbar .navbar-expand {
 }
 
 .cursor {
-  border-left: 4px solid white;
+  border-left: 4px solid  var(--white-color);
 }
 
 .my-photo {
@@ -98,8 +100,8 @@ h2 {
 
 #aboutMe {
   font-size: 20px;
-  background-color: #161a30;
-  color: white;
+  background-color: var(--main-bg);
+  color:  var(--white-color);
 }
 
 .btn-primary {
@@ -127,19 +129,19 @@ h2 {
 /*---------------------------------------------------------------------------------------*/
 
 #myprojects > h1 {
-  color: white;
+  color:  var(--white-color);
   text-align: center;
 }
 
 .card {
-  color: white;
-  border: 2px solid white;
+  color:  var(--white-color);
+  border: 2px solid  var(--white-color);
   border-radius: 5px;
 }
 
 .card-title,
 .card-text {
-  color: white !important;
+  color:  var(--white-color) !important;
 }
 
 .card-body {
@@ -166,7 +168,7 @@ h2 {
 }
 
 .card-img-top {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid  var(--white-color);
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -271,12 +273,12 @@ h2 {
   padding: 20px;
 }
 .copyright p {
-  color: white;
+  color:  var(--white-color);
 }
 
 .copyright a {
   text-decoration: none;
-  color: white;
+  color:  var(--white-color);
   font-weight: 700;
   font-style: italic;
 }
@@ -288,7 +290,7 @@ h2 {
 }
 
 .copyright-info p {
-  color: white;
+  color:  var(--white-color);
   text-align: center;
   margin-top: 30px;
   font-size: 20px;
@@ -303,7 +305,7 @@ h2 {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: white;
+  background-color:  var(--white-color);
   color: black;
   cursor: pointer;
   padding: 15px;
